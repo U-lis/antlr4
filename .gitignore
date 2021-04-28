@@ -24,6 +24,10 @@ hs_err_pid*
 
 # Jetbrains
 .idea/
+*.iml
 
 # python virtualenv
 .venv/
+
+# Example code
+code/
