@@ -27,8 +27,3 @@ hs_err_pid*
 
 # python virtualenv
 .venv/
-
-# generated antlr -> java outputs
-*
-!*/
-!*.g4
