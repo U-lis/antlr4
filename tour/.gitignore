@@ -2,3 +2,6 @@
 !.gitignore
 !t.expr
 !Expr.g4
+!ExprJoyRide.java
+!CommonLexerRules.g4
+!LibExpr.g4
