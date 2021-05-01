@@ -8,6 +8,12 @@ public class ExtractInterfaceListener extends JavaBaseListener {
         this.parser = parser;
     }
 
+    // Listen match of importDeclaration
+    @Override
+    public void enterImportDeclaration(JavaParser.ImportDeclarationContext ctx) {
+        System.out.println("import " + ctx.qualifiedName().getText());
+    }
+
     // Listen match of classDeclaration
     @Override
     public void enterClassDeclaration(JavaParser.ClassDeclarationContext ctx) {
