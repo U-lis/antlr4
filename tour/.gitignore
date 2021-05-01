@@ -1,7 +1,8 @@
-*
-!.gitignore
 !t.expr
 !Expr.g4
 !ExprJoyRide.java
 !CommonLexerRules.g4
 !LibExpr.g4
+!LabeledExpr.g4
+!Calc.java
+!EvalVisitor.java

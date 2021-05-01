@@ -31,3 +31,8 @@ hs_err_pid*
 
 # Example code
 code/
+
+# All but basic code
+*/*
+!*/.gitignore
+!*/README.md
